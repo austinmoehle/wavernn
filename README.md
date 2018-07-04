@@ -14,7 +14,8 @@ frozen WaveRNN model.
 
 `cudnn_gru.ipynb` demonstrates usage of the (poorly documented) CuDNN GRU cell
 in TensorFlow, and some of the tricks and workarounds needed to get the network
-up and running.
+up and running. See [this link](http://htmlpreview.github.io/?https://github.com/austinmoehle/wavernn/blob/master/cudnn_gru.html)
+for an HTML-rendered version.
 
 ## Setup
 Create a virtualenv, activate then run
