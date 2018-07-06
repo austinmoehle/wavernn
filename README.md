@@ -1,12 +1,12 @@
 # wavernn-demo
-WaveRNN-based waveform generator for audio synthesis using TensorFlow CuDNN GRU network.
+Since this work was part of a private Insight fellowship project, the model
+structure and training code could not be open-sourced.
 
 ![Model](img/pipeline.png)
 
-Since this was part of a private Insight fellowship project, the model
-structure and training code could not be open-sourced. This public repo is a
-demo of the final model trained on 13000 spoken sentences; inference can be run
-on CPU or GPU using the frozen graph.
+This repository contains a demo of a WaveRNN-based waveform generator trained
+on 13000 spoken sentences; inference can be run on CPU or GPU using the frozen
+graph.
 
 `run_wavernn.py` takes an input WAV file, applies an FFT to produce an 80-band
 mel spectrogram, then uses the spectrogram to generate 16 kHz audio with a
