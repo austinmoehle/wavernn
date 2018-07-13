@@ -11783,15 +11783,6 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong><em>IMPORTANT:</em></strong> if viewing on GitHub, <a href="http://htmlpreview.github.io/?https://github.com/austinmoehle/wavernn/blob/master/cudnn_gru.html">go here instead</a> for a version with properly rendered equations.</p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Introduction">Introduction<a class="anchor-link" href="#Introduction">&#182;</a></h2>
 </div>
 </div>
@@ -11810,10 +11801,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>$$r_t = \sigma \left(x_t W_r + h_{t-1} R_r + b_{Wr} + b_{Rr}\right)$$
-$$u_t = \sigma \left(x_t W_u + h_{t-1} R_u + b_{Wu} + b_{Ru}\right)$$
-$$\tilde h_t = \tanh \left(x_t W_h + r_t \cdot \left(h_{t-1} R_h + b_{Rh}\right) + b_{Wh}\right)$$
-$$h_t = u_t \cdot \tilde h_t + \left(1 - u_t\right) \cdot h_{t-1}$$</p>
+<p><img src="img/gru_small.png" alt="GRU equations" title="GRU equations"></p>
 
 </div>
 </div>
@@ -12047,10 +12035,7 @@ $$h_t = u_t \cdot \tilde h_t + \left(1 - u_t\right) \cdot h_{t-1}$$</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>$$r_t = \sigma \left(x_t W_r + h_{t-1} R_r + b_{Wr} + b_{Rr}\right)$$
-$$u_t = \sigma \left(x_t W_u + h_{t-1} R_u + b_{Wu} + b_{Ru}\right)$$
-$$\tilde h_t = \tanh \left(x_t W_h + r_t \cdot \left(h_{t-1} R_h + b_{Rh}\right) + b_{Wh}\right)$$
-$$h_t = u_t \cdot \tilde h_t + \left(1 - u_t\right) \cdot h_{t-1}$$</p>
+<p><img src="img/gru_small.png" alt="GRU equations" title="GRU equations"></p>
 
 </div>
 </div>
